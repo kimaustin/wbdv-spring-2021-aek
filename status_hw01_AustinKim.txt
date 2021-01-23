@@ -1,0 +1,30 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+	Austin Kim
+
+2. Which VPS & domain providers did you choose?
+	Digital Ocean and Namecheap
+
+3. What domain name did you register?
+	wbdvaustinkim.com
+
+4. What's the URL of your Github repository for this assignment?
+	https://github.com/kimaustin/wbdv-spring-2021-aek
+
+5. Which parts of this assignment did you have trouble with, if any?
+	Setting up the VM on big sur. I ultimately wasn't able to get
+one to work, after trying to change privileges in recovery mode and
+trying various VM software.
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
+ - Task 9
