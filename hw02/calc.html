@@ -1,0 +1,49 @@
+<!DOCTYPE html lang="en">
+  <head>
+    <title>HW02</title>
+    <script src="calc.js"></script>
+    <link href="calc.css" rel="stylesheet"/>
+  </head>
+  <body>
+      
+    <p id="hw02">HW02: Part A</p>
+    <p><a href="index.html">Index</a></p>
+    <p><a href="animal.html">Part A</a></p>
+    <hr>
+    <br>
+    <h1>Four Function Calculator</h1>
+    <!--Relevent features:
+
+        A display showing a single number.
+        A grid of 4 by 4 buttons including:
+        - Numbers 0 - 9
+        - Four arithmetic operators (with + also acting as =).
+        - C means “clear”s
+        - Decimal point  -->
+
+    <div id="calc"> 
+        <!--Chose to not make the output with a form as an old-fashioned 4-function
+            calculator can only be operated with the buttons. -->
+        <p id="output">0</p>
+        <!-- <input id="output" value="0"></button> -->
+        <div id="buttons">
+            <button type="button" class="number" onclick="pressNum(7)">7</button>
+            <button type="button" class="number" onclick="pressNum(8)">8</button>
+            <button type="button" class="number" onclick="pressNum(9)">9</button>
+            <button type="button" class="operation" onclick="setOperation(0)">+=</button>
+            <button type="button" class="number" onclick="pressNum(4)">4</button>
+            <button type="button" class="number" onclick="pressNum(5)">5</button>
+            <button type="button" class="number" onclick="pressNum(6)">6</button>
+            <button type="button" class="operation" onclick="setOperation(1)">-</button>
+            <button type="button" class="number" onclick="pressNum(1)">1</button>
+            <button type="button" class="number" onclick="pressNum(2)">2</button>
+            <button type="button" class="number" onclick="pressNum(3)">3</button>
+            <button type="button" class="operation" onclick="setOperation(2)">*</button>
+            <button type="button" class="number" onclick="clearButton()">c</button>
+            <button type="button" class="number" onclick="pressNum(0)">0</button>
+            <button type="button" class="number" onclick="pressDec()">.</button>
+            <button type="button" class="operation" onclick="setOperation(3)">/</button>
+        </div>
+    </div>
+  </body>
+</html>
