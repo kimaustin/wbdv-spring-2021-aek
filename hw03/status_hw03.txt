@@ -10,7 +10,7 @@ Please fill in answers to the questions below:
 
 
 3. Which parts of this assignment did you have trouble with, if any?
-	Getting the guesses to show up dynamically into the table. And building out the react app on my server.
+	Getting the guesses to show up dynamically into the table. And building out the react app on my server. For the life of me I could not get my app to show up on my server. I spent 15-18 hours trying to get it to work, looking up forums, recreating apps, and carefully reading into all the notes and still could not get the app to run on my digitalOcean server, after getting it to show up on a local server. It has been a frustrating experience.
 	
 
 4. What external libraries did you use? For what?
